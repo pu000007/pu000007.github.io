@@ -35,6 +35,11 @@ h1 {
     padding-top: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #home, #story, #contact {
     font-weight: bolder;
     display: inline-block;
