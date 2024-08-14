@@ -10,31 +10,37 @@
     
 </head>
 <body>
-    <div>
+    <div class="wrapper">
     <!-- nav has full width blackground with in-line navigation list-->
         <header>
             <nav>
                 <img src="image/logo.png" alt="Three stars as the logo of the company">
-                <ul>
+                <ul class="mainnav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#about-us">About Us</a></li>
                     <li><a href="#our-serv">Service</a></li>
                     <li><a href="#our-team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <input type="text" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i>
+                <form class="search-box" action="thank.html">
+                    <input class="search-bar" type="text" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i>
+                </form>          
             </nav>
         </header>
         
         <main>
             <!-- full width background image with transparent welcome message -->
-            <div class="container">
-                <img src="image/main-banner.jpg" alt="Some employees sitting in an office " style="width: 100%;">
-                <div class="content-mainban">
-                    <h1>welcome to Three Star Media</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quam nihil magni dignissimos consectetur possimus ad optio accusamus ab, earum autem eaque hic corrupti dolor praesentium vel reprehenderit officia totam?</p>
-                </div>
-                <h4><a href="#contact">Connect with us <i class="fa-solid fa-play"></i></a></h4>
+            <div class="welcome">
+                <!-- <img src="image/main-banner.jpg" alt="Some employees sitting in an office " style="width: 100%;"> -->
+                <div class="wrapper2">
+                    <div class="content-mainban">
+                        <h1>Welcome to Three Star Media</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quam nihil magni dignissimos consectetur possimus ad optio accusamus ab, earum autem eaque hic corrupti dolor praesentium vel reprehenderit officia totam?orem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ducimus voluptatibus dolore tenetur tempore a quasi sint quam. Maxime earum quibusdam laboriosam delectus. Maxime adipisci, repudiandae dignissimos vitae fugit odit.</p>
+                    </div>
+                    <div class="orange-box">
+                    <h4><a href="#contact">Connect with us <i class="fa-solid fa-play"></i></a></h4>
+                    </div>
+                </div>    
             </div>
             <div>
                 <img src="image/about-us.jpg" alt="A table tennis table in the office">
@@ -76,7 +82,6 @@
                 </div>
             </div>
 
-        <div>
             <!-- full width background image with transparent vision content -->
             <div class="container-vision">
                 <img src="image/vision.jpg" alt="Some paper boats " style="width: 100%;">
@@ -85,7 +90,7 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quam nihil magni dignissimos consectetur possimus ad optio accusamus ab, earum autem eaque hic corrupti dolor praesentium vel reprehenderit officia totam?</p>
                     <h4><a href="learnmore.html">Learn More <i class="fa-solid fa-play"></i></a></h4>
                 </div>    
-        </div>
+             </div>
 
             <h2 id="our-team">Our Team</h2>
             <div>
@@ -123,8 +128,10 @@
                 <h3>Hours of operation</h3>
                 <table>
                     <thead>
-                        <th>Days</th>
-                        <th>Hours</th>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>   
                     </thead>
                     <tbody>
                         <tr>
