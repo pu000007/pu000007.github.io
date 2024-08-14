@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pu000007 final project</title>
+    <!-- add google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap" rel="stylesheet">
     <!-- add fontawesome.com link -->
     <script src="https://kit.fontawesome.com/5e3fc2f1dd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
@@ -14,7 +18,7 @@
     <!-- nav has full width blackground with in-line navigation list-->
         <header>
             <nav>
-                <img src="image/logo.png" alt="Three stars as the logo of the company">
+                <img class="logopic" src="image/logo.png" alt="Three stars as the logo of the company">
                 <ul class="mainnav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#about-us">About Us</a></li>
@@ -42,83 +46,84 @@
                     </div>
                 </div>    
             </div>
-            <div>
-                <img src="image/about-us.jpg" alt="A table tennis table in the office">
+            <div class="aboutus">              
+                <img class="aboutpic" src="image/about-us.jpg" alt="A table tennis table in the office">
                 <h2 id="about-us">About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ducimus voluptatibus dolore tenetur tempore a quasi sint quam. Maxime earum quibusdam laboriosam delectus. Maxime adipisci, repudiandae dignissimos vitae fugit odit.</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi dolorem obcaecati repellat odio laboriosam dignissimos, unde autem aliquid molestias, nobis culpa fugiat neque. Ab dignissimos, expedita eligendi assumenda natus necessitatibus.</p>
             </div>
             <div>
                 <h2 id="our-serv">Our Services</h2>
-                <div>
+                <div class="dt service">
                     <img src="image/digital.jpg" alt="An employee is using a laptop while checking the mobile phone">
                     <h3>Digital Transformation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem nesciunt sit soluta iusto delectus fugiat, placeat tempore corrupti totam odit incidunt pariatur quas veniam nostrum! Corporis corrupti voluptas provident.</p>
-                    <h4><a href="">Digital Plans <i class="fa-solid fa-play"></i></a></h4>
+                    <h4 class="o"><a href="">Digital Plans <i class="fa-solid fa-play"></i></a></h4>
                 </div>
-                <div>
+                <div class="mk service">
                     <img src="image/marketing.jpg" alt="A laptop is showing the statistical data">
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem nesciunt sit soluta iusto delectus fugiat, placeat tempore corrupti totam odit incidunt pariatur quas veniam nostrum! Corporis corrupti voluptas provident.</p>
-                    <h4><a href="">Marketing Plans <i class="fa-solid fa-play"></i></a></h4>
+                    <h4 class="o"><a href="">Marketing Plans <i class="fa-solid fa-play"></i></a></h4>
                 </div>
-                <div>
+                <div class="vid service">
                     <img src="image/video.jpg" alt="A hand is opening Youtube app on the mobile phone">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem nesciunt sit soluta iusto delectus fugiat, placeat tempore corrupti totam odit incidunt pariatur quas veniam nostrum! Corporis corrupti voluptas provident.</p>
-                    <h4><a href="">Video Plans <i class="fa-solid fa-play"></i></a></h4>
+                    <h4 class="o"><a href="">Video Plans <i class="fa-solid fa-play"></i></a></h4>
                 </div>
-                <div>
+                <div class="wd service">
                     <img src="image/web.jpg" alt="A mobile phone that is showing the instagram app login interface with a pen and a notebook">
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem nesciunt sit soluta iusto delectus fugiat, placeat tempore corrupti totam odit incidunt pariatur quas veniam nostrum! Corporis corrupti voluptas provident.</p>
-                    <h4><a href="">Web Plans <i class="fa-solid fa-play"></i></a></h4>
+                    <h4 class="o"><a href="">Web Plans <i class="fa-solid fa-play"></i></a></h4>
                 </div>
-                <div>
+                <div class="pri service">
                     <img src="image/print.jpg" alt="Some dust bins on the street with posters on them">
                     <h3>Print</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem nesciunt sit soluta iusto delectus fugiat, placeat tempore corrupti totam odit incidunt pariatur quas veniam nostrum! Corporis corrupti voluptas provident.</p>
-                    <h4><a href="">Print Plans <i class="fa-solid fa-play"></i></a></h4>
+                    <h4 class="o"><a href="">Print Plans <i class="fa-solid fa-play"></i></a></h4>
                 </div>
             </div>
 
             <!-- full width background image with transparent vision content -->
             <div class="container-vision">
-                <img src="image/vision.jpg" alt="Some paper boats " style="width: 100%;">
                 <div class="content-vision">
                     <h3>Our Vision</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quam nihil magni dignissimos consectetur possimus ad optio accusamus ab, earum autem eaque hic corrupti dolor praesentium vel reprehenderit officia totam?</p>
-                    <h4><a href="learnmore.html">Learn More <i class="fa-solid fa-play"></i></a></h4>
+                    <h4 class="black"><a href="learnmore.html">Learn More <i class="fa-solid fa-play"></i></a></h4>
                 </div>    
              </div>
 
             <h2 id="our-team">Our Team</h2>
             <div>
-                <img src="image/john.jpg" alt="CEO John's photo">
-                <h3>John Doe</h3>
-                <p>CEO and Co-owner</p>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsam harum sunt corporis nobis saepe iure earum facere tempore perspiciatis officia quasi totam amet mollitia alias minima exercitationem, ullam dolore.</p>
+                <div class="j team">
+                    <img src="image/john.jpg" alt="CEO John's photo">
+                    <h3>John Doe</h3>
+                    <p>CEO and Co-owner</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsam harum sunt corporis nobis saepe iure earum facere tempore perspiciatis officia quasi totam amet mollitia alias minima exercitationem, ullam dolore.</p>
+                </div>
+                <div class="b team">
+                    <img src="image/bob.jpg" alt="CEO Bob's photo">
+                    <h3>Bob Rite</h3>
+                    <p>CEO and Co-owner</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsam harum sunt corporis nobis saepe iure earum facere tempore perspiciatis officia quasi totam amet mollitia alias minima exercitationem, ullam dolore.</p>
+                </div>
             </div>
-            <div>
-                <img src="image/bob.jpg" alt="CEO Bob's photo">
-                <h3>Bob Rite</h3>
-                <p>CEO and Co-owner</p>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsam harum sunt corporis nobis saepe iure earum facere tempore perspiciatis officia quasi totam amet mollitia alias minima exercitationem, ullam dolore.</p>
-            </div>
-            <div>
+            <div class="contact-box">
                 <h2 id="contact">Contact Us</h2>
                 <h3>Send us a message</h3>
-                <form action="thanks.html" method="post">
-                    <label for="fullname">Name</label>
-                    <input type="text" name="fullname" id="fullname"><br>
+                <form class="contactform" action="thanks.html" method="post">
+                    <label for="fullname">Name</label><br>
+                    <input id="name"  type="text" name="fullname" id="fullname"><br>
 
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email"><br>
+                    <label for="email">Email</label><br>
+                    <input id="email"  type="email" name="email" id="email"><br>
 
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message"></textarea>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" id="message"></textarea>
 
                     <button type="submit">Send</button>
                 </form>
@@ -149,7 +154,7 @@
             <div>
                 <h3>Location</h3>
                 <!-- Embed google map location -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9571797971093!2d-75.75831012330168!3d45.34967664107219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1722121610483!5m2!1sen!2sca"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9571797971093!2d-75.75831012330168!3d45.34967664107219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1722121610483!5m2!1sen!2sca"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </main>
        

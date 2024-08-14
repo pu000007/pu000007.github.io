@@ -47,25 +47,29 @@ table {
 	border-spacing: 0;
 }
 
-/* Using box sizing to make sure we don't need to worry about calculating padding and border*/
+/* Add google font open sans */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Using box sizing to make sure the padding and margin we added won't affect the designed box size*/
 *{
     box-sizing: border-box;
 }
 
-/* .mainnav{
-    width: 100%;
-    overflow: auto;
-} */
+.wrapper{
+    max-width: 1200px;
+
+}
 
 header {
     background-color: #222;
 }
 
 .mainnav>li{
-    float: left;
+    float: none;
     width: 100%;
     list-style: none;
-    color: #c78c06;
     background-color: #222;
 }
 
@@ -141,4 +145,159 @@ h1 {
 .orange-box a{
     text-decoration: none;
     color: #222;
+}
+
+.aboutus{
+    padding: 10px;
+    background-color: #ffe6ac;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.aboutpic{
+    max-width: 100%;
+    height: auto;
+}
+
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.service{
+    background-color: #ffe6ac;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+h4.o{
+    background-color: #222;
+    padding: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+h4 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-vision{
+    background-image: url("../image/vision.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 300px;
+    position: relative;
+    color: white;
+}
+
+.content-vision{
+    position: absolute;
+    top: 25%;
+}
+
+.black{
+    background-color: #222;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #c78c06;
+}
+
+.team{
+    background-color: #ffe6ac;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+hr{
+    border:1px solid #c78c06;
+}
+
+#name, #email, #message{
+    display: block;
+    width: 99%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid #222;
+    padding: 15px;
+}
+
+th{
+    background-color: #ffe6ac;
+}
+
+.map {
+    border: 0;
+    width: 100%;
+    height: 300px;
+}
+
+
+footer{
+    background-color: #222;
+    color: #c78c06;
+    padding: 15px;
+}
+
+@media screen and (min-width: 760px){
+    .mainnav{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #222;
+   }
+    
+    .mainnav li{
+        float: left;
+        width: auto;
+    }
+
+    .mainnav a {
+        display: block;
+        color: #c78c06;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .mainnav a:hover {
+        background-color: #c78c06;
+        color: #222;
+    }
+    
+    .aboutus {
+        flex-direction: row;
+    }
 }
